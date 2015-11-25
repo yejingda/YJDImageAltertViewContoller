@@ -15,6 +15,10 @@
 		A4525DA21C05645E00602C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4525DA01C05645E00602C8D /* LaunchScreen.storyboard */; };
 		A4525DAD1C05645E00602C8D /* YJDImageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4525DAC1C05645E00602C8D /* YJDImageViewControllerTests.m */; };
 		A4525DB81C05645E00602C8D /* YJDImageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4525DB71C05645E00602C8D /* YJDImageViewControllerUITests.m */; };
+		A4525DD11C05650100602C8D /* YJDImageAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4525DCE1C05650100602C8D /* YJDImageAlertViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A4525DD21C05650100602C8D /* YJDImageAltertViewBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4525DD01C05650100602C8D /* YJDImageAltertViewBottomButton.m */; settings = {ASSET_TAGS = (); }; };
+		A4525DD61C0585FD00602C8D /* test_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4525DD51C0585FD00602C8D /* test_image.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4525DD81C0587FA00602C8D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4525DD71C0587FA00602C8D /* Reveal.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		A4525DB31C05645E00602C8D /* YJDImageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJDImageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4525DB71C05645E00602C8D /* YJDImageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDImageViewControllerUITests.m; sourceTree = "<group>"; };
 		A4525DB91C05645E00602C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4525DCD1C05650100602C8D /* YJDImageAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJDImageAlertViewController.h; sourceTree = "<group>"; };
+		A4525DCE1C05650100602C8D /* YJDImageAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJDImageAlertViewController.m; sourceTree = "<group>"; };
+		A4525DCF1C05650100602C8D /* YJDImageAltertViewBottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJDImageAltertViewBottomButton.h; sourceTree = "<group>"; };
+		A4525DD01C05650100602C8D /* YJDImageAltertViewBottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJDImageAltertViewBottomButton.m; sourceTree = "<group>"; };
+		A4525DD51C0585FD00602C8D /* test_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_image.jpg; sourceTree = "<group>"; };
+		A4525DD71C0587FA00602C8D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4525DD81C0587FA00602C8D /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 		A4525D861C05645D00602C8D = {
 			isa = PBXGroup;
 			children = (
+				A4525DD71C0587FA00602C8D /* Reveal.framework */,
+				A4525DCC1C05650100602C8D /* YJDImageAlertView */,
 				A4525D911C05645E00602C8D /* YJDImageViewController */,
 				A4525DAB1C05645E00602C8D /* YJDImageViewControllerTests */,
 				A4525DB61C05645E00602C8D /* YJDImageViewControllerUITests */,
@@ -107,6 +120,7 @@
 				A4525D991C05645E00602C8D /* ViewController.m */,
 				A4525D9B1C05645E00602C8D /* Main.storyboard */,
 				A4525D9E1C05645E00602C8D /* Assets.xcassets */,
+				A4525DD51C0585FD00602C8D /* test_image.jpg */,
 				A4525DA01C05645E00602C8D /* LaunchScreen.storyboard */,
 				A4525DA31C05645E00602C8D /* Info.plist */,
 				A4525D921C05645E00602C8D /* Supporting Files */,
@@ -138,6 +152,17 @@
 				A4525DB91C05645E00602C8D /* Info.plist */,
 			);
 			path = YJDImageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		A4525DCC1C05650100602C8D /* YJDImageAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A4525DCD1C05650100602C8D /* YJDImageAlertViewController.h */,
+				A4525DCE1C05650100602C8D /* YJDImageAlertViewController.m */,
+				A4525DCF1C05650100602C8D /* YJDImageAltertViewBottomButton.h */,
+				A4525DD01C05650100602C8D /* YJDImageAltertViewBottomButton.m */,
+			);
+			path = YJDImageAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +271,7 @@
 				A4525DA21C05645E00602C8D /* LaunchScreen.storyboard in Resources */,
 				A4525D9F1C05645E00602C8D /* Assets.xcassets in Resources */,
 				A4525D9D1C05645E00602C8D /* Main.storyboard in Resources */,
+				A4525DD61C0585FD00602C8D /* test_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4525D9A1C05645E00602C8D /* ViewController.m in Sources */,
+				A4525DD21C05650100602C8D /* YJDImageAltertViewBottomButton.m in Sources */,
 				A4525D971C05645E00602C8D /* AppDelegate.m in Sources */,
+				A4525DD11C05650100602C8D /* YJDImageAlertViewController.m in Sources */,
 				A4525D941C05645E00602C8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +439,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YJDImageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XXX.YJDImageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YJDImageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XXX.YJDImageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
